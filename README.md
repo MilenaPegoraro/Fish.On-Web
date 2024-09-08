@@ -30,4 +30,6 @@ Com esse projeto inicial espero estar a caminho, junto com meu grupo da faculdad
 2. Abra o arquivo `index.html` em seu navegador.
 
 **Agradecimentos:**
-* Alura Imersão Dev com Google Gemini pela oportunidade de aprimorar meus conhecimentos, a FATEC – Ferraz de Vasconcelos pelo incentivo a criação de novos projetos e, principalmente, ao integrantes do grupo que estão trabalhando em cima da ideia desse projeto comigo.
+Alura Imersão Dev com Google Gemini pela oportunidade de aprimorar meus conhecimentos, a FATEC – Ferraz de Vasconcelos pelo incentivo a criação de novos projetos e, principalmente, ao integrantes do grupo que estão trabalhando em cima da ideia desse projeto comigo.
+
+**Milena Pegoraro**
