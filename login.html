@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="title-menu">
+        <h2>Login</h2>
+    </div>
+    <div class="box-login">
+        <div class="container-img"><a href="./index.html"><img src="./img/logo_23.png" alt="logo FishOn"></a></div>
+        <form id="form-login">
+            <input type="email" id="email" placeholder="Digite seu e-mail" required>
+            <input type="password" id="senha" placeholder="Digite sua senha" required>
+            <div id="mensagem"></div>
+            <div class="continue">
+                <button type="button" onclick="login()">Entrar</button>
+            </div>
+            <div class="return">
+                <a href="./index.html"><button type="button">Voltar</button></a>
+            </div>
+        </form>
+    </div>
+    <script src="js/login.js"></script>
+</body>
+</html>

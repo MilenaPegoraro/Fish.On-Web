@@ -1,0 +1,454 @@
+
+/* TELA LOGIN */
+body, p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2em;
+    font-family: Arial;
+}
+
+.title-menu{
+    color: #1a5b95;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+h2{
+    margin: 0 auto;
+}
+
+img{
+    height: 200px;
+}
+
+.box-login {
+    display: flex;
+    margin-top: 80px;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+input{
+    height: 40px;
+    width: 60%;
+    margin-top: 10px;
+}
+
+.continue>a>button{
+    text-align: center;
+    border: none;
+    margin-top: 100px;
+    background-color:  #1a5b95;
+    color: white;
+    padding: 10px;
+    height: 70px;
+    width: 50vh;
+    border-radius: 12px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+} 
+#mensagem{
+    font-weight: bold;
+    color: red;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+/* TELA INDEX */
+body, p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2em;
+    font-family: Arial;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+ul{
+    list-style: none;
+}
+li{
+    list-style: none;
+}
+
+.title-menu {
+    color: #1a5b95;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.logo{
+    height: 200;
+    margin-right: 2%;
+}
+
+.perfil{
+    height: 80px;
+    margin-left: 10%;
+    margin-right: 50px;
+}
+
+.pesquisa{
+    width: 100%;
+    padding: 10px;
+    height: 30px;
+}
+
+h2 {
+    margin: 0 auto;
+}
+.img-pesq{
+    width: 60vh;
+    height: 40vh;
+    border-radius: 12px 12px 0 0;
+    margin-bottom: -1px;
+}
+
+.box>hr{
+    color: #1a5b95;
+    margin-top: -2px;
+
+}
+
+/*container de catálogo */
+.container-catalogo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.container-catalogo:hover {
+    transform: scale(1.02);
+}
+
+.container-catalogo h2 a {
+    text-decoration: none;
+    color: #2a7ae4;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.container-catalogo h2 a:hover {
+    text-decoration: underline;
+}
+
+.descricao-meta {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.descricao-meta strong {
+    font-weight: bold;
+}
+
+.container-catalogo p {
+    margin: 5px 0;
+}
+
+/* Para tornar o layout responsivo */
+@media (min-width: 768px) {
+    .container-catalogo {
+        max-width: 700px;
+        margin: 20px auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container-catalogo {
+        max-width: 900px;
+        padding: 30px;
+    }
+}
+
+
+.container-catalogo div {
+    width: 60vh;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+
+
+.container-catalogo ul{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content:flex-start;
+    padding: 10px;
+    
+}
+
+.box{
+    border: solid 1px #1a5b95;
+    background-color: white;
+    color: #1a5b95;
+}
+
+.line{
+    height: 30px;
+    background-color: #1a5b95;
+}
+
+/* TELA HOME */
+body, p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2em;
+    font-family: Arial;
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.title-menu {
+    color: #1a5b95;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+h2 {
+    margin: 0 auto;
+}
+
+hr{
+    color: #1a5b95;
+}
+button{
+    text-align: center;
+    border: none;
+    margin-top: 18px;
+    background-color:  #1a5b95;
+    color: white;
+    padding: 10px;
+    height: 100px;
+    width: 60vh;
+    border-radius: 12px;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+} 
+.container-img>a>img{
+    width: 400px;
+    height: 400px;
+    background-image: url(favicon.png);
+    background-size: 300px;
+    border: none;
+    text-shadow: white 0px 0px 2px;
+    font-size: 16px;
+}
+.btnlogin>a>button{
+    text-align: center;
+    border: none;
+    margin-top: 18px;
+    background-color:  white;
+    color: #1a5b95;
+    padding: 10px;
+    height: 100px;
+    width: 60vh;
+    border-radius: 12px;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #1a5b95;
+}
+
+.container-menu{
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    /* align-content: center; */
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 100%;
+    
+}
+
+.container div {
+    width: 60%;
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 12px;
+
+}
+
+.box-1{
+    background-color: #1a5b95;
+    color: aliceblue;
+
+}
+
+.box-2{
+    background-color: #1a5b95;
+    color: aliceblue;
+
+}
+
+.box-3{
+    border: solid 1px #1a5b95;
+    background-color: white;
+    color: #1a5b95;
+}
+
+.box-3 h1 {
+    color: #1a5b95;
+    text-decoration: none;
+}
+.pesquisa{
+    height: 50px;
+    color: #1a5b95;
+}
+.pesquisa-img{
+    background-color: #1a5b95;
+    height: 64px;
+    width: 160px;
+    margin-right: 10px;
+}
+
+
+/* TELA CADASTRO */
+body, p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2em;
+    font-family: Arial;
+}
+a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.title-menu{
+    color: #1a5b95;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+h2{
+    margin: 0 auto;
+}
+
+img{
+    height: 200px;
+}
+
+.box-login {
+    display: flex;
+    margin-top: 80px;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+input{
+    font-size: 1.3em;
+    font-family: 'Times New Roman', Times, serif;
+    height: 50px;
+    width: 60%;
+    margin-top: 10px;
+    border-radius: 5px;
+
+}
+
+.return>a>button{
+    text-align: center;
+    border: none;
+    margin-top: 18px;
+    background-color:  white;
+    color: #1a5b95;
+    padding: 10px;
+    height: 70px;
+    width: 50vh;
+    border-radius: 12px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #1a5b95;
+}
+
+.return>a>button:hover, .btnlogin>a>button:hover{
+    background-color:  #103758;
+    color: white;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color:  #103758;
+    transition: 0.3s;
+}
+.continue>a>button:hover{
+    background-color:  #103758;
+    transition: 0.3s;
+} 
+
+footer {
+    color: #103758; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 0; /* Espaçamento interno */
+    width: 100%; /* Largura total da página */
+    position: absolute; /* Posiciona o rodapé */
+    bottom: 0; /* Alinha ao fundo da página */
+    font-size: 1rem; /* Tamanho da fonte */
+}
+
+.descricao-meta {
+    color: #45474B; 
+    margin: 0.5rem 0;
+}
+
+/* Estilo para a mensagem "Nada foi encontrado" */
+.resultados-pesquisa p.nenhum-resultado {
+    font-size: 20px; /* Tamanho da fonte para a mensagem */
+    color: #103758; /* Cor do texto para destaque */
+    text-align: center; /* Centraliza a mensagem */
+    font-weight: bold; /* Torna o texto em negrito */
+    padding: 20px; /* Adiciona algum espaçamento interno */
+    border-radius: 8px; /* Bordas arredondadas */
+    margin: 20px auto; /* Espaçamento externo e centralização horizontal */
+    max-width: 500px; /* Largura máxima para evitar que ocupe toda a tela */
+}
